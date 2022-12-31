@@ -1,0 +1,11 @@
+.klasa {
+    font-size: 28px;
+    font-family: 'Helvetica', 'Times New Roma', 'sans-serif';
+}
+.klasaCzar {
+    background-color: rgb(47, 45, 46);
+    color: rgb(255, 249, 247);
+}
+.klasaZol {
+    background-color: rgb(255, 240, 79);
+}
