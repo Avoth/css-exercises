@@ -1,0 +1,16 @@
+.klasa1, .klasa2 {
+    font-family: 'Verdana', 'DejaVu Sans', 'sans-serif';
+    background-color: rgb(231, 183, 205);
+}
+.klasa2 {
+    font-size: 24px;
+}
+#iden1 {
+    font-size: 36px;
+    color: rgb(4, 139, 232);
+}
+#iden2 {
+    font-size: 24px;
+    font-weight: bold;
+    background-color: rgb(153, 216, 77);
+}
