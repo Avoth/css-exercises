@@ -39,6 +39,7 @@ img {
   align-items: center;
   width: 200px;
   flex-wrap: wrap;
-  margin: 26px;
+  margin-left: 26px;
+  margin-right: 26px;
   text-align: center;
 }
