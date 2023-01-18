@@ -5,6 +5,8 @@ body {
   margin: 0;
   overflow: hidden;
   font-family: Roboto, sans-serif;
+  display: flex;
+  flex-direction: column;
 }
 
 img {
@@ -24,4 +26,59 @@ input {
   padding: 8px 24px;
   width: 400px;
   margin-bottom: 16px;
+}
+/*solution */
+ul {
+  list-style: none;
+  margin: 0px;
+  padding: 0px;
+  gap: 16px;
+}
+ul li {
+  display: inline;
+}
+a{
+  color: grey;
+  padding: 5px;
+}
+a:link {
+  text-decoration: none;
+}
+a:visited {
+  text-decoration: none;
+  color: grey;
+}
+a:hover {
+  text-decoration: none;
+  color: grey;
+}
+a:active {
+  text-decoration: none;
+  color: grey;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  padding: 16px;
+}
+.footer {
+  display: flex;
+  justify-content: space-between;
+  background-color: #eeeeee;
+  padding: 16px;
+}
+.left-links .right-link {
+  display: flex;
+  justify-content: space-between;
+}
+.content {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+button {
+  padding: 8px 16px;
 }
